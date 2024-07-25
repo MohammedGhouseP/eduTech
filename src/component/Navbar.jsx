@@ -1,6 +1,8 @@
-import { Center, chakra,Flex } from "@chakra-ui/react";
+import { Button, Center, chakra,Flex } from "@chakra-ui/react";
 import { Link as ReactRouterLink } from "react-router-dom";
 import { Link as ChakraLink } from "@chakra-ui/react";
+import { AuthContext } from "../context/AuthContextProvider"
+import { useContext } from "react";
 
 const links = [
   {
@@ -16,12 +18,18 @@ const links = [
     label: "About",
   },
   {
+    to: "/task",
+    label: "Task",
+  },
+  {
     to: "/login",
     label: "Login",
   },
+  
 ];
 
 export default function Navbar() {
+  const { logout } = useContext(AuthContext)
   return (
     <Flex 
     align="center"
@@ -34,6 +42,7 @@ export default function Navbar() {
           {link.label}
         </ChakraLink>
       ))}
+      <Button variant={"outline"} colorScheme="red" onClick={logout}>Logout</Button>
     </Flex>
   );
 }
