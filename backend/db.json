@@ -1,0 +1,84 @@
+{
+    "tickets": [
+        {
+            "id": 1,
+            "title": "Task Completed",
+            "description": "Raise a ticket",
+            "assignee": "Rahul",
+            "status": "Pending",
+            "priority": 0
+        },
+        {
+            "id": 2,
+            "title": "Bug Fix",
+            "description": "Fix login issue",
+            "assignee": "Ananya",
+            "status": "In Progress",
+            "priority": 2
+        },
+        {
+            "id": 3,
+            "title": "Feature Request",
+            "description": "Add dark mode",
+            "assignee": "Vikram",
+            "status": "Open",
+            "priority": 1
+        },
+        {
+            "id": 4,
+            "title": "Code Review",
+            "description": "Review pull request #42",
+            "assignee": "Priya",
+            "status": "Pending",
+            "priority": 1
+        },
+        {
+            "id": 5,
+            "title": "Documentation",
+            "description": "Update API docs",
+            "assignee": "Amit",
+            "status": "Completed",
+            "priority": 0
+        },
+        {
+            "id": 6,
+            "title": "Server Maintenance",
+            "description": "Upgrade server hardware",
+            "assignee": "Sanjay",
+            "status": "In Progress",
+            "priority": 3
+        },
+        {
+            "id": 7,
+            "title": "UI Design",
+            "description": "Design new dashboard",
+            "assignee": "Riya",
+            "status": "Open",
+            "priority": 2
+        },
+        {
+            "id": 8,
+            "title": "Security Patch",
+            "description": "Apply latest security patch",
+            "assignee": "Manish",
+            "status": "Completed",
+            "priority": 3
+        },
+        {
+            "id": 9,
+            "title": "Customer Support",
+            "description": "Resolve ticket #7843",
+            "assignee": "Neha",
+            "status": "Pending",
+            "priority": 2
+        },
+        {
+            "id": 10,
+            "title": "Code Optimization",
+            "description": "Optimize search algorithm",
+            "assignee": "Karan",
+            "status": "In Progress",
+            "priority": 1
+        }
+    ]
+}

@@ -2,9 +2,12 @@ import { Route, Routes } from "react-router-dom";
 import Home from "../pages/Home.jsx";
 import Contact from "../pages/Contact.jsx";
 import Login from "../pages/Login.jsx";
-import Task from "../pages/Task.jsx";
+import Tickets from "../pages/Tickets.jsx";
 import About from "../pages/About.jsx";
 import { PrivatePage } from "./PrivatePage.jsx";
+import TicketCreate from "../pages/TicketCreate.jsx";
+import TicketEdit from "../pages/TicketEdit.jsx";
+import TicketView from "../pages/TicketView.jsx";
 
 export default function AllRoute() {
   return (
@@ -36,10 +39,34 @@ export default function AllRoute() {
           }
         />
         <Route
-          path="/task"
+          path="/tickets"
           element={
             <PrivatePage>
-              <Task />
+              <Tickets />
+            </PrivatePage>
+          }
+        />
+        <Route
+          path="/ticket/create"
+          element={
+            <PrivatePage>
+              <TicketCreate />
+            </PrivatePage>
+          }
+        />
+        <Route
+          path="/ticket/view/:id"
+          element={
+            <PrivatePage>
+              <TicketView/>
+            </PrivatePage>
+          }
+        />
+        <Route
+          path="/ticket/edit/:id"
+          element={
+            <PrivatePage>
+              <TicketEdit />
             </PrivatePage>
           }
         />

@@ -18,8 +18,20 @@ const links = [
     label: "About",
   },
   {
-    to: "/task",
-    label: "Task",
+    to: "/tickets",
+    label: "Tickets",
+  },
+  {
+    to: "/ticket/create",
+    label: "CreateTicket",
+  },
+  {
+    to: "/ticket/edit",
+    label: "TicketEdit",
+  },
+  {
+    to: "/ticket/view",
+    label: "TicketView",
   },
   {
     to: "/login",

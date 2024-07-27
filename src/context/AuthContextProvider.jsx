@@ -6,7 +6,7 @@ export function AuthContextProvider({ children }) {
   const toast = useToast();
   
   const [authDetail, setAuthDetail] = useState({
-    isLoggedIn: false,
+    isLoggedIn: true,
     token: null,
   });
   const login = (token) => {
