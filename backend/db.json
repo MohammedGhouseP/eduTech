@@ -1,28 +1,12 @@
 {
   "tickets": [
     {
-      "id": "1",
-      "title": "Task Completed",
-      "description": "Raise a ticket",
-      "assignee": "Rahul",
-      "status": "pending",
-      "priority": 1
-    },
-    {
-      "id": "2",
       "title": "Bug Fix",
-      "description": "Fix login issue",
+      "description": "Fix login issue is done",
       "assignee": "Rahul",
       "status": "progress",
-      "priority": 2
-    },
-    {
-      "id": "3",
-      "title": "Feature Request",
-      "description": "Add dark mode",
-      "assignee": "Amit",
-      "status": "completed",
-      "priority": 1
+      "priority": 8,
+      "id": "2"
     },
     {
       "id": "4",
@@ -33,28 +17,12 @@
       "priority": 10
     },
     {
-      "id": "5",
       "title": "Documentation",
       "description": "Update API docs",
       "assignee": "Amit",
-      "status": "completed",
-      "priority": 3
-    },
-    {
-      "id": "6",
-      "title": "Server Maintenance",
-      "description": "Upgrade server hardware",
-      "assignee": "Riya",
       "status": "progress",
-      "priority": 3
-    },
-    {
-      "id": "7",
-      "title": "UI Design",
-      "description": "Design new dashboard",
-      "assignee": "Riya",
-      "status": "progress",
-      "priority": 8
+      "priority": 3,
+      "id": "5"
     },
     {
       "id": "8",
@@ -73,63 +41,20 @@
       "priority": 6
     },
     {
-      "id": "10",
-      "title": "Code Optimization",
-      "description": "Optimize search algorithm",
-      "assignee": "Neha",
-      "status": "progress",
-      "priority": 7
-    },
-    {
-      "id": null,
-      "title": "jh",
-      "description": "h",
-      "assignee": "Amit",
-      "status": "pending",
-      "priority": 3
-    },
-    {
-      "id": null,
-      "title": "jh",
-      "description": "h",
-      "assignee": "Amit",
-      "status": "pending",
-      "priority": 3
-    },
-    {
-      "id": null,
-      "title": "",
-      "description": "",
-      "assignee": "",
-      "status": "",
-      "priority": ""
-    },
-    {
-      "id": null,
-      "title": "",
-      "description": "",
-      "assignee": "",
-      "status": "",
-      "priority": ""
-    },
-    {
-      "id": null,
-      "title": "kn",
-      "description": "bvvjh",
-      "assignee": "Amit",
-      "status": "pending",
-      "priority": 3
-    },
-    {
-      "id": "a98b"
-    },
-    {
-      "id": null,
+      "id": "11",
       "title": "error",
       "description": "Akash git",
       "assignee": "Amit",
       "status": "progress",
       "priority": 8
+    },
+    {
+      "id": "12",
+      "title": "map array bug",
+      "description": "not rendering",
+      "assignee": "Amit",
+      "status": "pending",
+      "priority": 5
     }
   ]
 }
