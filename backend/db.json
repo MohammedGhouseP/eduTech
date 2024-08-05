@@ -2,9 +2,9 @@
   "tickets": [
     {
       "title": "Bug Fix",
-      "description": "Fix login issue is done",
+      "description": "Fix login issue is done.,mn",
       "assignee": "Rahul",
-      "status": "progress",
+      "status": "completed",
       "priority": 8,
       "id": "2"
     },
@@ -18,19 +18,19 @@
     },
     {
       "title": "Documentation",
-      "description": "Update API docs",
-      "assignee": "Amit",
-      "status": "progress",
-      "priority": 3,
+      "description": "Update API docs. ",
+      "assignee": "Neha",
+      "status": "completed",
+      "priority": 5,
       "id": "5"
     },
     {
-      "id": "8",
       "title": "Security Patch",
       "description": "Apply latest security patch",
       "assignee": "Neha",
       "status": "completed",
-      "priority": 3
+      "priority": 5,
+      "id": "8"
     },
     {
       "id": "9",
